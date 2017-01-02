@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ringtone_seekbar_parent"
+    android:layout_width="match_parent"
+    android:layout_height="160px"
+    android:layout_marginTop="0dip"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <SeekBar
+        android:id="@+id/seekbar_video"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:max="0"
+        android:progress="0"
+        android:progressDrawable="@drawable/seekbar_progress_layer_list"
+        android:thumb="@mipmap/play_seekbar_icon"
+        android:layout_weight="18"/>
+
+</LinearLayout>
